@@ -6,7 +6,7 @@ metadata:
 data:
   # Configuration values can be set as key-value properties
   username: springapp
-  password: mongodb@123
+  password: mysore@123
 ---
 # Replication Controller for springapp
 apiVersion: v1
@@ -29,7 +29,7 @@ spec:
         - containerPort: 8080  
         env:
         - name: MONGO_DB_HOSTNAME
-          value: mongo
+          value: banana
         - name: MONGO_INITDB_ROOT_USERNAME
           valueFrom:
             configMapKeyRef:
